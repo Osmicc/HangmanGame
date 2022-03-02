@@ -5,13 +5,13 @@ import java.awt.*;
 
 
 public class Gallows extends GCompound{
+    // All the parts of the gallows are given predetermined sizes
     static GRect base =  new GRect(200, 15);
     static GRect stem = new GRect(15, 200);
     static GRect beam = new GRect(100, 15);
     static GRect noose = new GRect(2, 20);
 
-    public static double[] drawPoint = {noose.getX() + noose.getWidth()/2, noose.getY() + noose.getHeight()};
-
+    // A method that sets all the parts to filled and adds them to a GCompound
     public Gallows(int startPosX, int startPosY){
         GCompound gallows = new GCompound();
         add(base, startPosX, startPosY);
