@@ -15,7 +15,7 @@ public class Hangman extends GraphicsProgram{
      * ? Add a game loop (A replay button, a skip button, maybe key presses to hotkey to the buttons)
      * ? Add difficulties(Change the amount of items drawn and the list of words the word is chosen from)
      * * Add a penalty for guessing the word incorrectly (Instant loss)
-     * ? Install git
+     * * Install git
      * ? Write comments throughout the project
      * * If the letter guessed has already been used do not allow it
      */
